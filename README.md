@@ -30,9 +30,9 @@ Required arguments:
 '--interactive': 'Set it to 'True' to render and see the agent while it learns and acts in the environment (Not required. Default value of False)
 
 ```'--env'```: Environment to run the agent on (required). Three environments are available:
-													1. Simple Gridworld
-										      2. Windy Gridworld
-										      3. Cliff Walking
+1. Simple Gridworld
+2. Windy Gridworld
+3. Cliff Walking
 
 legal values for the --env argument:
     For the Cliff Walking Env : "cliffwalking" "cliffwalkingenv"     "cliff"      "cliffs"     
@@ -40,9 +40,9 @@ legal values for the --env argument:
     For the Simple Gridworld Env : "simplemaze" "simplegrid" "simplegridworld" "simplegridworldenv" "simpleroomsenv"  "simpleroom"  "maze"  "grid"
 
 ```'--agent'```:Type of Agent Algorithm to execute (required). Two algorithms are available:
-																	1. SARSA
-									      	        2. Q-Learning
-legal values for the --env argument:
+1. SARSA
+2. Q-Learning
+legal values for the '''--env''' argument:
 	For the SARSA Agent      >> any string that starts with an "S" (or "s")
 	For the Q Learning Agent >> any string that stars with "Q" (or "q")
 
