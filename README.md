@@ -1,25 +1,24 @@
-## RL_Agents: A collection of RL Agents / Algorithms implemented on simple Open AI Gym Environments
+## RL_Agents: A collection of RL Agents / Algorithms implemented on 3 simple Environments
 
 The project should be organized in the following folder structure:
-RL_Agents (main project folder)
-|
-|--------lib
-|          |plotting.py
-|	   |simulation.py
-|          |envs
-|            |simple_rooms.py
-|            |windy_gridworld.py
-|	     |cliff_walking.py
-|--------experiments.py
-|--------sarsa_agent.py
-|--------Q_learning_agent.py
-|--------README.md
+- RL_Agents (main project folder)
+  - lib
+    - plotting.py
+    - simulation.py
+    - envs
+      - simple_rooms.py
+      - windy_gridworld.py
+      - cliff_walking.py
+- experiments.py
+- sarsa_agent.py
+- Q_learning_agent.py
+- README.md
 
 ### The project requires the following libraries:
-*1. Gym
+1. Gym
 2. Numpy
 3. Pandas
-4. Matplotlib*
+4. Matplotlib
 
 ## Running
 
@@ -27,14 +26,14 @@ The main file to run is experiments.py. It is located in RL_Agents (the main pro
 
 Required arguments:
 
-'--interactive': 'Set it to 'True' to render and see the agent while it learns and acts in the environment (Not required. Default value of False)
+```'--interactive'```: 'Set it to 'True' to render and see the agent while it learns and acts in the environment (Not required. Default value of False)
 
 ```'--env'```: Environment to run the agent on (required). Three environments are available:
 1. Simple Gridworld
 2. Windy Gridworld
 3. Cliff Walking
 
-legal values for the --env argument:
+legal values for the ```--env``` argument:
     For the Cliff Walking Env : "cliffwalking" "cliffwalkingenv"     "cliff"      "cliffs"     
     For the Windy Gridworld Env : "windygridworld"  "windygridworldenv"     "windygrid"    "windy"     
     For the Simple Gridworld Env : "simplemaze" "simplegrid" "simplegridworld" "simplegridworldenv" "simpleroomsenv"  "simpleroom"  "maze"  "grid"
@@ -42,7 +41,7 @@ legal values for the --env argument:
 ```'--agent'```:Type of Agent Algorithm to execute (required). Two algorithms are available:
 1. SARSA
 2. Q-Learning
-legal values for the '''--env''' argument:
+legal values for the ```--agent``` argument:
 	For the SARSA Agent      >> any string that starts with an "S" (or "s")
 	For the Q Learning Agent >> any string that stars with "Q" (or "q")
 
