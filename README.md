@@ -9,10 +9,10 @@ The project should be organized in the following folder structure:
       - simple_rooms.py
       - windy_gridworld.py
       - cliff_walking.py
-- experiments.py
-- sarsa_agent.py
-- Q_learning_agent.py
-- README.md
+  - experiments.py
+  - sarsa_agent.py
+  - Q_learning_agent.py
+  - README.md
 
 ### The project requires the following libraries:
 1. Gym
@@ -22,9 +22,9 @@ The project should be organized in the following folder structure:
 
 ## Running
 
-The main file to run is experiments.py. It is located in RL_Agents (the main project folder)
+The main file to run is ```experiments.py```. It is located in RL_Agents ( main project folder).
 
-Required arguments:
+#### Required arguments:
 
 ```'--interactive'```: 'Set it to 'True' to render and see the agent while it learns and acts in the environment (Not required. Default value of False)
 
