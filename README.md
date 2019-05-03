@@ -1,4 +1,4 @@
-# RL_Agents: A collection of RL Agents / Algorithms implemented on simple Open AI Gym Environments
+## RL_Agents: A collection of RL Agents / Algorithms implemented on simple Open AI Gym Environments
 
 The project should be organized in the following folder structure:
 RL_Agents (main project folder)
@@ -16,10 +16,10 @@ RL_Agents (main project folder)
 |--------README.md
 
 ### The project requires the following libraries:
-Gym
+*Gym
 Numpy
 Pandas
-Matplotlib
+Matplotlib*
 
 The main file to run is experiments.py. It is located in RL_Agents (the main project folder)
 
