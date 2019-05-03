@@ -16,10 +16,10 @@ RL_Agents (main project folder)
 |--------README.md
 
 ### The project requires the following libraries:
-*Gym
-Numpy
-Pandas
-Matplotlib*
+*1. Gym
+2. Numpy
+3. Pandas
+4. Matplotlib*
 
 ## Running
 
@@ -29,17 +29,19 @@ Required arguments:
 
 '--interactive': 'Set it to 'True' to render and see the agent while it learns and acts in the environment (Not required. Default value of False)
 
-'--env': Environment to run the agent on (required). Three environments are available: - Simple Gridworld
-										       - Windy Gridworld
-										       - Cliff Walking
+```'--env'```: Environment to run the agent on (required). Three environments are available:
+													1. Simple Gridworld
+										      2. Windy Gridworld
+										      3. Cliff Walking
 
 legal values for the --env argument:
     For the Cliff Walking Env : "cliffwalking" "cliffwalkingenv"     "cliff"      "cliffs"     
     For the Windy Gridworld Env : "windygridworld"  "windygridworldenv"     "windygrid"    "windy"     
     For the Simple Gridworld Env : "simplemaze" "simplegrid" "simplegridworld" "simplegridworldenv" "simpleroomsenv"  "simpleroom"  "maze"  "grid"
 
-'--agent':Type of Agent Algorithm to execute (required). Two algorithms are available: - SARSA
-									      	       - Q Learning
+```'--agent'```:Type of Agent Algorithm to execute (required). Two algorithms are available:
+																	1. SARSA
+									      	        2. Q-Learning
 legal values for the --env argument:
 	For the SARSA Agent      >> any string that starts with an "S" (or "s")
 	For the Q Learning Agent >> any string that stars with "Q" (or "q")
