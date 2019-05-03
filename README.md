@@ -35,16 +35,16 @@ Three environments are available:
 3. Cliff Walking
 
 legal values for the ```--env``` argument:
-    - For the Cliff Walking Env : "cliffwalking" "cliffwalkingenv"     "cliff"      "cliffs"     
-    - For the Windy Gridworld Env : "windygridworld"  "windygridworldenv"     "windygrid"    "windy"     
-    - For the Simple Gridworld Env : "simplemaze" "simplegrid" "simplegridworld" "simplegridworldenv" "simpleroomsenv"  "simpleroom"  "maze"  "grid"
+- For the Cliff Walking Env : "cliffwalking" "cliffwalkingenv"     "cliff"      "cliffs"     
+- For the Windy Gridworld Env : "windygridworld"  "windygridworldenv"     "windygrid"    "windy"     
+- For the Simple Gridworld Env : "simplemaze" "simplegrid" "simplegridworld" "simplegridworldenv" "simpleroomsenv"  "simpleroom"  "maze"  "grid"
 
 ```'--agent'```:Type of Agent Algorithm to execute (required). Two algorithms are available:
 1. SARSA
 2. Q-Learning
 legal values for the ```--agent``` argument:
-	- For the SARSA Agent      >> any string that starts with an "S" (or "s")
-	- For the Q Learning Agent >> any string that stars with "Q" (or "q")
+- For the SARSA Agent      >> any string that starts with an "S" (or "s")
+- For the Q Learning Agent >> any string that stars with "Q" (or "q")
 
 ```'--iter'```: Number of iterations to run the algorithm for (required integer)
 
