@@ -21,6 +21,8 @@ Numpy
 Pandas
 Matplotlib*
 
+## Running
+
 The main file to run is experiments.py. It is located in RL_Agents (the main project folder)
 
 Required arguments:
@@ -42,15 +44,15 @@ legal values for the --env argument:
 	For the SARSA Agent      >> any string that starts with an "S" (or "s")
 	For the Q Learning Agent >> any string that stars with "Q" (or "q")
 
-'--iter': Number of iterations to run the algorithm for (required integer)
+```'--iter'```: Number of iterations to run the algorithm for (required integer)
 
-'--epsilon': Value of exploration probability Epsilon (Not required float. Default value of 0.9)
+```'--epsilon'```: Value of exploration probability Epsilon (Not required float. Default value of 0.9)
 
-'--alpha' : Value for the learning rate Alpha (Not required float. Default value of 0.5)
+```'--alpha'``` : Value for the learning rate Alpha (Not required float. Default value of 0.5)
 
-'--decay' : How often / the number of time steps after which Epsilon is decayed (Not required integer. Default value of 50)
+```'--decay'``` : How often / the number of time steps after which Epsilon is decayed (Not required integer. Default value of 50)
 
-## Running
+## Example Usage
 
 Interactive mode of the Sarsa agent on the Simple Girdworld environment for 20 iterations
 
@@ -67,7 +69,7 @@ Non-Interactive mode of the SARSA agent on the Cliff Walking environment for 200
 ```
  python experiments.py --env=wind --agent=sarsa --iter=200 --epsilon=1.0 --alpha=0.5 --decay=30
 ```
-### Results in the Report can be replicated using the following commands:
+### Results in the Project Decription pdf can be replicated using the following commands:
 ```
 python experiments.py --env=CliffWalking --agent=sarsa --iter=1000 --epsilon=0.9 --alpha=0.5 --decay=30
 python experiments.py --env=CliffWalking --agent=q --iter=1000 --epsilon=0.7 --alpha=0.5 --decay=30
