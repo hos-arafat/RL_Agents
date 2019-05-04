@@ -1,6 +1,6 @@
 ## RL_Agents: A collection of RL Agents / Algorithms implemented on 3 simple Environments
 
-Copyright for portions of these lab files are held by Denny Britz as part of https://github.com/dennybritz/reinforcement-learning and by Microsoft as part of their online edX course "Reinforcement Learning - DAT257x" https://notebooks.azure.com/Microsoft-Learning/projects/DAT257x.
+Copyright for portions of these lab files are held by Denny Britz as part of https://github.com/dennybritz/reinforcement-learning and by Microsoft as part of their online edX course "Reinforcement Learning Explained - DAT257x" https://notebooks.azure.com/Microsoft-Learning/projects/DAT257x.
 Copyright (c) 2016 Denny Britz
 Copyright (c) 2017-present Microsoft
 
